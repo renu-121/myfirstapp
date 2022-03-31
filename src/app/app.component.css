@@ -1,0 +1,30 @@
+.container 
+{
+    
+    padding: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 
+{
+
+
+    text-align: center;
+}
+.cards-container 
+{
+    display: flex;
+    width:100%;
+    padding-top: Sem;
+}
+.cards-form 
+{
+    width: 50%;
+    padding: 2em;
+}
+.cards-grid 
+{
+    width: 50%;
+    padding: 2em;
+}
