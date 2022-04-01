@@ -1,84 +1,84 @@
 <div class="container">
-  <h1>ANGULAR + ASP. NET CORE CRUD</h1>
+  <h1>TRIMMS</h1>
  <div class="cards-container">
   <div class="cards -form">
-    <form>
+    <form #form="ngForm"(ngSubmit)="onSubmit()">
       <div class="form-group">
         <label for="">Employee ID</label>
-        <input type="text" name="Employee ID">
+        <input type="text" name="Employee ID" [(ngModel)]="Employee.Emp_ID">
       </div>
       <div class="form-group">
         <label for="">Name</label>
-        <input type="text" name="Name">
+        <input type="text" name="Name" [(ngModel)]="Employee.Emp_Name">
       </div>
       <div class="form-group">
         <label for="">Date Of Birth</label>
-        <input type="text" name="Date Of Birth">
+        <input type="text" name="Date Of Birth" [(ngModel)]="Employee.DOB">
       </div>
-      
+
       <div class="form-group">
         <label for="">Gender</label>
-        <input type="text" name="Gender">
+        <input type="text" name="Gender" [(ngModel)]="Employee.Gender">
       </div>
       <div class="form-group">
         <label for="">Email ID</label>
-        <input type="text" name="Email ID">
+        <input type="text" name="Email ID" [(ngModel)]="Employee.Email_ID">
       </div>
       <div class="form-group">
         <label for="">Contact No.</label>
-        <input type="text" name="Contact No.">
+        <input type="text" name="Contact No." [(ngModel)]="Employee.Contact_Number">
       </div>
       <div class="form-group">
         <label for="">Address</label>
-        <input type="text" name="Address">
+        <input type="text" name="Address" [(ngModel)]="Employee.Address">
       </div>
       <div class="form-group">
         <label for="">State</label>
-        <input type="text" name="State">
+        <input type="text" name="State" [(ngModel)]="Employee.State_Name">
       </div>
       <div class="form-group">
         <label for="">Country</label>
-        <input type="text" name="Country">
+        <input type="text" name="Country" [(ngModel)]="Employee.Country_ID">
       </div>
       <div class="form-group">
         <label for="">Pincode</label>
-        <input type="text" name="Pincode">
+        <input type="text" name="Pincode" [(ngModel)]="Employee.PinCode">
       </div>
       <div class="form-group">
         <label for="">Employee Type</label>
-        <input type="text" name="Employee Type">
+        <input type="text" name="Employee Type" [(ngModel)]="Employee.Emp_Type">
       </div>
       <div class="form-group">
         <label for="">Department</label>
-        <input type="text" name="Department">
+        <input type="text" name="Department" [(ngModel)]="Employee.Department">
       </div>
       <div class="form-group">
         <label for="">Designation</label>
-        <input type="text" name="Designation">
+        <input type="text" name="Designation" [(ngModel)]="Employee.Designation">
       </div>
       <div class="form-group">
         <label for="">DOJ</label>
-        <input type="text" name="DOJ">
+        <input type="text" name="DOJ" [(ngModel)]="Employee.DOJ">
       </div>
       <div class="form-group">
         <label for="">Level</label>
-        <input type="text" name="Level">
+        <input type="text" name="Level" [(ngModel)]="Employee.Level">
       </div>
       <div class="form-group">
         <label for="">Band</label>
-        <input type="text" name="Band">
+        <input type="text" name="Band" [(ngModel)]="Employee.Band">
       </div>
       <div class="form-group">
         <label for="">Reporting Manager</label>
-        <input type="text" name="Reporting Manager">
+        <input type="text" name="Reporting Manager" [(ngModel)]="Employee.Reporting_Manager">
       </div>
       <div class="form-group">
         <label for="">Location</label>
-        <input type="text" name="Location">
+        <input type="text" name="Location" [(ngModel)]="Employee.Location">
       </div>
       <div class="form-group">
         <label for="">Work Experience</label>
-        <input type="text" name="Work Experience">
+        <input type="text" name="Work Experience" [(ngModel)]="Employee.WorkEXPDOJ">
       </div>
       <div class="form-group">
         <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
